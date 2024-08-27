@@ -1,0 +1,19 @@
+-initialize a project with npm
+-express install 
+-setting up parsers for from.
+-setting up ejs for ejs pages.
+  -install ejs from npm 
+  -setup ejs as a view engine
+-setting up public static files.
+-dynamic routing
+    -dynamic routing 
+    -how to get data coming from front end at backend route.
+-dynamic routing:
+    -hamlog kai baar kch route dekhte hai usmein sirf ek
+     hi hissa change hota hai.
+      /author/harsh
+      /author/manish
+      /author/harshita
+      /author/harish
+    -dynamic banana hi to realise karo konsa part dynamic hai
+     aur us part ke aage route me : laga do.
