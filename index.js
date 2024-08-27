@@ -12,7 +12,13 @@ app.get('/', function(req, res){
 });
 
 app.get('/profile/:username', function(req, res){
-    res.send("chal mere ghar");
+    res.send(`Welcom, ${req.params.username}`);
+})
+
+app.get('/author/:username/:age', function(req, res){
+    res.send(`welcome, ${req.params.username} of age ${req.params.age}`);
+    
+    
 })
 app.listen(3000,function(){
     console.log("its running");
